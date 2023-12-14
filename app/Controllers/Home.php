@@ -8,9 +8,14 @@ class Home extends BaseController
     {
         return view('dashboard');
     }
-    
-    public function diagnose(): string
+
+    public function login(): string
     {
-        return view('diagnose');
+        return view('auth/login');
+    }
+
+    public function register(): string
+    {
+        return view('auth/register');
     }
 }

@@ -6,9 +6,9 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    public string $fromEmail  = '';
-    public string $fromName   = '';
-    public string $recipients = '';
+    public string $fromEmail  = 'uasweb@gmail.com';
+    public string $fromName   = 'Kelompok UAS';
+    public string $recipients = 'Email Activator';
 
     /**
      * The "user agent"
