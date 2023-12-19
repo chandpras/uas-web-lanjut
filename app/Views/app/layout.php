@@ -288,7 +288,7 @@
       </li><!-- End Dashboard Nav -->
 
       <li class="nav-item">
-        <a class="nav-link <?= $this->renderSection('diagnose') ?>" href="<?= base_url('/diagnose') ?>">
+        <a class="nav-link <?= $this->renderSection('diagnose') ?>" href="<?= base_url('/diagnosa_form') ?>">
           <i class="bi bi-file-medical"></i>
           <span>Diagnose</span>
         </a>

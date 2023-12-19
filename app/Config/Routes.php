@@ -2,6 +2,8 @@
 
 use CodeIgniter\Router\RouteCollection;
 use Config\Auth;
+use App\Controllers\DashboardController;
+use App\Controllers\DiagnosaController;
 
 /**
  * @var RouteCollection $routes
@@ -42,4 +44,8 @@ $routes->get('/register', 'Home::register');
 $routes->get('/admin', 'AdminController::index', ['filter' => 'role:admin']);
 
 // User Routes
-$routes->get('/user', 'userController::index', ['filter' => 'role:user']);
+$routes->get('/user', 'UserController::index', ['filter' => 'role:user']);
+
+// Routes Diagnosa
+$routes->get('/diagnosa_form', 'DiagnosaController::index', ['filter' => 'role:user']); // Rute untuk menampilkan form diagnosa
+$routes->post('/diagnosa_result', 'DiagnosaController::prosesDiagnosa', ['filter' => 'role:user']); // Rute untuk proses diagnosa
