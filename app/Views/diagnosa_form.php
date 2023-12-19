@@ -1,4 +1,4 @@
-<?= $this->extend('app/layout') ?>
+<?= $this->extend('app/layout_user') ?>
 
 <?= $this->section('title') ?>
     Diagnose
