@@ -1,4 +1,4 @@
-<?= $this->extend('app/layout') ?>
+<?= $this->extend('app/layout_admin') ?>
 
 <?= $this->section('title') ?>
     Dashboard Admin

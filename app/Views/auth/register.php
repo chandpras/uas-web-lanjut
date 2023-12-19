@@ -51,7 +51,7 @@
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
                   <img src="<?= base_url('NiceAdmin/assets/img/logo.png') ?>" alt="">
-                  <span class="d-none d-lg-block">NiceAdmin</span>
+                  <span class="d-none d-lg-block">OptiCare</span>
                 </a>
               </div><!-- End Logo -->
 
